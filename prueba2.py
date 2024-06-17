@@ -159,7 +159,7 @@ if btn_continuar:
     y=Funciones.resultado(X_user)
     st.write('### :black[Tu calidad de sueño es: ]', y)
 
-    st.write('### :black[Te recomendamos: ]')
+    st.write('### :black[Observaciones: ]')
     horass(horas)
     # st.write('Se recomienda dormir entre 7 y 9 horas, siendo mejor dormir 1h de más que de menos')
     pant(pantallas)
