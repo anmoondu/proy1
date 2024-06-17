@@ -171,4 +171,4 @@ if btn_continuar:
     X_user = Funciones.depurarDatos(Funciones.crearDF(Pregunta, Respuesta))
 
     y=Funciones.resultado(X_user)
-    st.write('### :black[Tú calidad de sueño es: ]', y)
+    st.write('### :black[Tu calidad de sueño es: ]', y)
