@@ -22,7 +22,7 @@ with st.sidebar:
              un estudio de los hábitos diarios para comprobar si estos afectan a la 
              calidad o a la capacidad de dormir de cada individuo.
              ''')
-     puntuacion = st.slider("_**¿Te ha gustado la\npágina:**_", 0, 10)
+     puntuacion = st.slider("_**¿Te ha gustado la\npágina?**_", 0, 10)
      if puntuacion > 7.5:
           st.write("_Muchas gracias, \nnos alegramos de que te guste_")
           #st.balloons()
