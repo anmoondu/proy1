@@ -90,33 +90,33 @@ pulsaciones = st.slider("**22. Pulsaciones (por minuto):**", 40, 150, )
 def horass(horas):
      if horas < 7:
           n = 7-horas
-          st.write('Te recomendamos dormir',n,'horas más')
+          st.write('-Dormir',n,'horas más')
      elif horas > 9:
           n1 = horas - 8
-          st.write('Te recomendamos dormir', n1, 'horas menos')
+          st.write('-Dormir', n1, 'horas menos')
      else:
           st.write('Duermes una cantidad de horas adecuada')
     
 def pant(pantallas):
      if pantallas > 8:
           n = pantallas - 8
-          st.write('Deberías reducir el tiempo de pantallas por lo menos', n, 'horas')
+          st.write('-Reducir el tiempo de pantallas por lo menos', n, 'horas')
      else:
           pass
 def sport(ejercicio):
      if ejercicio == 2:
           n = 3 - ejercicio
-          st.write('Para mejorar la calidad haz',n, 'día más de deporte')
+          st.write('-Haz',n, 'día más de deporte')
      elif ejercicio == 0 or ejercicio == 1:
           n = 3 - ejercicio
-          st.write('Para mejorar la calidad haz',n, 'días más de deporte')
+          st.write('-Haz',n, 'días más de deporte')
      else:
           pass
 
 def pasos(pasos):
      if pasos < 10000:
           n = 10000 - pasos
-          st.write('Para tener una mejor calidad del sueño deberías hacer 10000 pasos diarios, ', n, 'más de los actuales')
+          st.write('HaZ 10000 pasos diarios, ', n, 'más de los actuales')
 
 def estress(estres):
      if estres > 5 and estres <  8:
