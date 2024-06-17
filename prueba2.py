@@ -169,7 +169,7 @@ if btn_continuar:
     estress(estres)
     medicacionn(medicacion)
     
-    st.write('#### :black[Vídeo informativo]\n')
+    st.write('#### :black[Vídeo informativo:]\n')
     st.video('https://youtu.be/fgBTsWjWqns')
     
 
