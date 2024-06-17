@@ -14,15 +14,13 @@ st.write('# :blue[*en tan solo 2 minutos*]')
 st.image('sueño3.jpg')
 with st.sidebar:
      st.markdown('### Científicos de sueños')
-     with st.expander('# :blue[**Qué es esto**]'):
-        st.write('''
-             Con tan solo contestar las 18 preguntas propuestas podremos ayudarte a mejorar tu sueño
-             ''')
      with st.expander('# :blue[**Quiénes somos**]'):
         st.write('''
-             Somos estudiantes de 1º de Ciencia de Datos de la UPV.\n 
-             En la asignatura de PROYECTO I hemos desarrollado un proyecto acerca de la calidad y el
-             análisis del sueño para ver que factores afectan a este para ayudar a mejorarlo.
+             Científicos de sueños es un grupo de estudiantes del grado 
+             en Ciencia de Datos por la Universidad Politécnica de Valencia, 
+             que nace gracias a la asignatura de Proyecto I, y con el fin de realizar 
+             un estudio de los hábitos diarios para comprobar si estos afectan a la 
+             calidad o a la capacidad de dormir de cada individuo.
              ''')
      puntuacion = st.slider("_**Te ha gustado?:**_", 0, 10)
      if puntuacion > 7.5:
@@ -34,7 +32,7 @@ with st.sidebar:
           pass
      else:
           st.write("_Sentimos que no te haya gustado_")
-     st.image('logo3.png')
+     st.image('logo.png')
 
 
 opciones_ocupacion = ["Trabajo", "Soy universitari@", "Estudio (FP, Bachiller, ESO...)", "Trabajo y Estudio", "Ninguna de las anteriores"]
