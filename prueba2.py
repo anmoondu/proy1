@@ -106,10 +106,10 @@ def pant(pantallas):
 def sport(ejercicio):
      if ejercicio == 2:
           n = 3 - ejercicio
-          st.write('➡️ Haz',n, 'día más de deporte')
+          st.write('➡️ Hacer',n, 'día más de deporte')
      elif ejercicio == 0 or ejercicio == 1:
           n = 3 - ejercicio
-          st.write('➡️ Haz',n, 'días más de deporte')
+          st.write('➡️ Hacer',n, 'días más de deporte')
      else:
           pass
 
@@ -128,7 +128,7 @@ def estress(estres):
 
 def medicacionn(medica):
      if medica == 'Sí':
-          st.write('➡️ Dado que tomas medicación, recomendamos la mejora de ciertos hábitos saludables para evitar esta toma')
+          st.write('➡️ Dado que tomas medicación, mejora ciertos hábitos saludables para evitar la ingesta de los fármacos')
      else:
           pass
 
