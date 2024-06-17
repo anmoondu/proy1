@@ -22,7 +22,7 @@ with st.sidebar:
              un estudio de los hábitos diarios para comprobar si estos afectan a la 
              calidad o a la capacidad de dormir de cada individuo.
              ''')
-     puntuacion = st.slider("_**Te ha gustado?:**_", 0, 10)
+     puntuacion = st.slider("_*¿*Te ha gustado la\npágina:**_", 0, 10)
      if puntuacion > 7.5:
           st.write("_Muchas gracias, \nnos alegramos de que te guste_")
           #st.balloons()
@@ -142,19 +142,7 @@ if btn_continuar:
       #  my_bar.progress(percent_complete + 1)
 
     st.title('Resultados')
-    st.write('Poner aquí los datos que nos salgan con el decision tree, análisis, etc. EL VÍDEO DE BAJO ACTUALIZARLO PARA PONER EL Q HAGAMOS')
-    st.video('https://www.youtube.com/watch?v=viA1ZK5ud7A&ab_channel=S%C3%A9Curioso%E2%80%94TED-Ed')
     
-    st.write('### :black[Te recomendamos: ]')
-    horass(horas)
-    # st.write('Se recomienda dormir entre 7 y 9 horas, siendo mejor dormir 1h de más que de menos')
-    pant(pantallas)
-    # st.write('Se recomienda un uso de pantallas de menos de 8 horas diarias, siempre que estas sean necesarias por trabajo, en caso contrario recomendamos disminuirlas más')
-    sport(ejercicio)
-    pasos(pasos_diarios)
-    estress(estres)
-    medicacionn(medicacion)
-
     Pregunta = ["Género", "Edad", "Altura", "Peso", "Rama de estudios", 
            "Sector de trabajo", "Horario de trabajo/estudio", 
            "Horas de sueño", "Horas uso de pantallas", "Ejercicio", 
@@ -170,3 +158,16 @@ if btn_continuar:
 
     y=Funciones.resultado(X_user)
     st.write('### :black[Tu calidad de sueño es: ]', y)
+
+    st.write('### :black[Te recomendamos: ]')
+    horass(horas)
+    # st.write('Se recomienda dormir entre 7 y 9 horas, siendo mejor dormir 1h de más que de menos')
+    pant(pantallas)
+    # st.write('Se recomienda un uso de pantallas de menos de 8 horas diarias, siempre que estas sean necesarias por trabajo, en caso contrario recomendamos disminuirlas más')
+    sport(ejercicio)
+    pasos(pasos_diarios)
+    estress(estres)
+    medicacionn(medicacion)
+
+    st.video('https://www.youtube.com/watch?v=viA1ZK5ud7A&ab_channel=S%C3%A9Curioso%E2%80%94TED-Ed')
+
