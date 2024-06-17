@@ -168,7 +168,7 @@ if btn_continuar:
     pasos(pasos_diarios)
     estress(estres)
     medicacionn(medicacion)
-    st.write(/n)
+    print('/n')
 
     st.video('https://youtu.be/fgBTsWjWqns')
     
