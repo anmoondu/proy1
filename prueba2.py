@@ -75,7 +75,7 @@ horario = st.multiselect("**9. ¿Cuál es tu horario de trabajo/estudio?:**", op
 pantallas = st.slider("**10. ¿Cuántas horas pasas al día con pantallas?:**", 0, 24)
 ejercicio = st.slider("**11. ¿Cuántos días a la semana haces ejercicio?:**", 0, 7)
 pasos_diarios = st.number_input("**12. Pasos diarios:**", min_value=0, max_value=30000, step=1)
-estres = st.slider("**13. ¿Cómo calificarías tu estrés diario¿:**", 0, 10)
+estres = st.slider("**13. ¿Cómo calificarías tu estrés diario?:**", 0, 10)
 trastorno_sueno = st.multiselect("**14. ¿Tienes algún trastorno del sueño?:**", opciones_trastorno)
 despertarse = st.radio("**15. ¿Te despiertas durante la noche?:**", opciones_sino)
 trastorno_saludmental = st.multiselect("**16. ¿Tienes algún problema de salud mental?:**", opciones_saludmental)
@@ -120,9 +120,9 @@ def pasos(pasos):
 
 def estress(estres):
      if estres > 5 and estres <  8:
-          st.write('➡️ Tienes un nivel de estrés medio, para mejorar la calidad incorpora hábitos que puedan disminuir el estrés')
+          st.write('➡️ Dado que tienes un nivel de estrés medio incorpora hábitos que puedan disminuirlo')
      elif estres >= 8:
-          st.write('➡️ Tienes un nivel de estrés alto, para mejorar la calidad incorpora hábitos que puedan disminuir el estrés')
+          st.write('➡️ Dado que tienes un nivel de estrés alto incorpora hábitos que puedan disminuirlo')
      else:
           pass
 
