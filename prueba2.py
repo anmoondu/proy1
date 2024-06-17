@@ -116,7 +116,7 @@ def sport(ejercicio):
 def pasos(pasos):
      if pasos < 10000:
           n = 10000 - pasos
-          st.write('➡️ Haz 10000 pasos diarios, ', n, 'más de los actuales')
+          st.write('➡️ Hacer 10000 pasos diarios, ', n, 'más de los actuales')
 
 def estress(estres):
      if estres > 5 and estres <  8:
