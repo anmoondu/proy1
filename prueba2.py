@@ -90,26 +90,26 @@ pulsaciones = st.slider("**22. Pulsaciones (por minuto):**", 40, 150, )
 def horass(horas):
      if horas < 7:
           n = 7-horas
-          st.write('-Dormir',n,'horas más')
+          st.write('➡️ Dormir',n,'horas más')
      elif horas > 9:
           n1 = horas - 8
-          st.write('-Dormir', n1, 'horas menos')
+          st.write('➡️ Dormir', n1, 'horas menos')
      else:
-          st.write('Duermes una cantidad de horas adecuada')
+          st.write('➡️ Duermes una cantidad de horas adecuada')
     
 def pant(pantallas):
      if pantallas > 8:
           n = pantallas - 8
-          st.write('-Reducir el tiempo de pantallas por lo menos', n, 'horas')
+          st.write('➡️ Reducir el tiempo de pantallas por lo menos', n, 'horas')
      else:
           pass
 def sport(ejercicio):
      if ejercicio == 2:
           n = 3 - ejercicio
-          st.write('-Haz',n, 'día más de deporte')
+          st.write('➡️ Haz',n, 'día más de deporte')
      elif ejercicio == 0 or ejercicio == 1:
           n = 3 - ejercicio
-          st.write('-Haz',n, 'días más de deporte')
+          st.write('➡️ Haz',n, 'días más de deporte')
      else:
           pass
 
@@ -120,15 +120,15 @@ def pasos(pasos):
 
 def estress(estres):
      if estres > 5 and estres <  8:
-          st.write('Tienes un nivel de estrés medio, para mejorar la calidad incorpora hábitos que puedan disminuir el estrés')
+          st.write('➡️ Tienes un nivel de estrés medio, para mejorar la calidad incorpora hábitos que puedan disminuir el estrés')
      elif estres >= 8:
-          st.write('Tienes un nivel de estrés alto, para mejorar la calidad incorpora hábitos que puedan disminuir el estrés')
+          st.write('➡️ Tienes un nivel de estrés alto, para mejorar la calidad incorpora hábitos que puedan disminuir el estrés')
      else:
           pass
 
 def medicacionn(medica):
      if medica == 'Sí':
-          st.write('Dado que tomas medicación, recomendamos la mejora de ciertos hábitos saludables para evitar esta toma')
+          st.write('➡️ Dado que tomas medicación, recomendamos la mejora de ciertos hábitos saludables para evitar esta toma')
      else:
           pass
 
