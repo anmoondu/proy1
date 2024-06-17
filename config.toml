@@ -1,7 +1,4 @@
 [theme]
 base="light"
-primaryColor="#1818ea"
+primaryColor="#2852a0"
 secondaryBackgroundColor="#eaf0fd"
-
-[server]
-headTitle = "Mejora tu sueño"
