@@ -135,7 +135,7 @@ def medicacionn(medica):
 btn_continuar = st.button('Analizar')
 if btn_continuar:
     with st.spinner('Analizando...'):
-        time.sleep(3)  # Simular una operación de carga
+        time.sleep(0.5)  # Simular una operación de carga
     #my_bar = st.progress(5)
     #for percent_complete in range(100):
      #   time.sleep(0.001)
