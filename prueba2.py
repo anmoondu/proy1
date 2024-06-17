@@ -169,5 +169,5 @@ if btn_continuar:
     estress(estres)
     medicacionn(medicacion)
 
-    st.video('https://www.youtube.com/watch?v=viA1ZK5ud7A&ab_channel=S%C3%A9Curioso%E2%80%94TED-Ed')
+    st.video('https://youtu.be/fgBTsWjWqns')
 
